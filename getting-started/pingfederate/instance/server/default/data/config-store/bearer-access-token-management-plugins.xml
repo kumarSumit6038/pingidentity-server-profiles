@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:map name="bearer-access-token-management-plugin-sequence">
+        <con:item name="ref">324305</con:item>
+        <con:item name="JWTATMDIR">914528</con:item>
+        <con:item name="JWTATM">1533082</con:item>
+        <con:item name="jwt">181733</con:item>
+        <con:item name="JsonATM">300581</con:item>
+    </con:map>
+    <con:map name="bearer-access-token-management-plugins">
+        <con:item name="ref">org.sourceid.oauth20.token.plugin.impl.ReferenceBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="JWTATMDIR">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="JWTATM">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="jwt">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+        <con:item name="JsonATM">com.pingidentity.pf.access.token.management.plugins.JwtBearerAccessTokenManagementPlugin</con:item>
+    </con:map>
+    <con:map name="bearer-access-token-management-plugins-parents"/>
+    <con:item name="bearer-access-token-management-plugins-default">JWTATM</con:item>
+</con:config>

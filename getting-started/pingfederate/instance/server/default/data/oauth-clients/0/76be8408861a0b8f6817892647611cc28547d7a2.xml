@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:Clients xmlns:urn="urn:pingidentity.com:pf:oauth:client">
+    <urn:Client client_id="ac_oic_client" name="OpenID Connect Basic Client Profile" secret="r9sf1Man6Ax4o4cSFDscWx6d_FoB-HTPa7JK-8fRCNc.5F5AbDor.2" persistentGrantExpirationTime="0" enabled="true" lastModified="2025-09-29T12:29:32.682+13:00" creationTime="2025-09-29T12:29:32.682+13:00" bypassApprovalPage="false" restrictScopes="false" jwks="{    &quot;keys&quot;:[       {          &quot;kty&quot;:&quot;RSA&quot;,          &quot;kid&quot;:&quot;k1&quot;,          &quot;use&quot;:&quot;sig&quot;,          &quot;n&quot;:&quot;hKMS39B1eoy3FRWI6xCfl3U9xnQCNgeg3LLtKEtLglKMtYB6fniXLsLfDqxZp-1zUN1Wmerhr86DL8tpGnr_Pft7wUWsZqCIg6wg7xIenV86kSasb7r9gYLFCuLmyHUJyyNVdWPdAecJ2AsJ82IZ8eXHkzmX3oxBQCPZ062y-m1Cptpqg3-NJtp12s_3MeBEnTsja29W7OxSpabExp860ZEbE1SRrac8naLS-g68G4AmhZ1Ui5Pdf757gosk5filkA8NjtPAKhoSRxzxgTSyOXKwPCx-pwDURF1P3P5bt2jy7cLwETWntUqQmtjYbfqGuSyoLGQlfzHht_Yu04w1cQ&quot;,          &quot;e&quot;:&quot;AQAB&quot;       }, {    &quot;kty&quot;:&quot;RSA&quot;,          &quot;kid&quot;:&quot;k2&quot;,          &quot;use&quot;:&quot;enc&quot;,    &quot;n&quot;:&quot;qm91fCVYwVayd07K7PuiHOuJPpyGH7A8HiZ0pPa6Enri3-zW7wns9UCRlMX77n5_fkxFG612yKa8JbMrWToUq2GZFVNrfKdOhgVJcHMRfYcjvZPZjVXbDz7nQqfUCvvljBUxlQlKNwH2jYPtoVeCBG1Esv7UJ9RnNGYE-osnKYhdIgxjNjk-w2oGevJK5aoXAE7bQySWPbpV0nqF4Itd8ojbDHmuu3VOyIsEsHw9nj1OBK9Fk3FqFVe-GoMcDOAKosbQa14t0z2WFHy7FLxnLw9WTvYLKJWAVgNaPpdZziujZ_mzvcQL0110Z4JqrJ1bVz5pXL_-hklu-RhjGd0msQ&quot;,    &quot;e&quot;:&quot;AQAB&quot; },       {          &quot;kty&quot;:&quot;EC&quot;,          &quot;kid&quot;:&quot;k3&quot;,          &quot;use&quot;:&quot;enc&quot;,          &quot;x&quot;:&quot;rfaXFAv-jUHAfzZdYTxZcCufhHvfiKMp3ICASLIKxYU&quot;,          &quot;y&quot;:&quot;rZ0v4XIpQ-I_sy24CQ12cH_FJWxx8RJ50Kg4qTFJKnQ&quot;,          &quot;crv&quot;:&quot;P-256&quot;       }    ] }" clientAuthnType="SECRET" enforceOneTimeJWT="false" isRequireSignedRequest="false">
+        <urn:Grant type="refresh_token"/>
+        <urn:Grant type="authorization_code"/>
+        <urn:RedirectUri>https://pingfed.example.com:9031/OAuthPlayground/authorization_code/oidc/callback</urn:RedirectUri>
+        <urn:SupplementalInfo key="CREATION_TIME" value="1759102172682"/>
+        <urn:SupplementalInfo key="LOCKOUT_MAX_MALICIOUS_ACTIONS_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="REVERSIBLE_SECRET" value="eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUFlwS0E2SlpEcCIsInZlcnNpb24iOiIxMi4yLjUuMCJ9..ETIgEaAtHyehJCcAvO-dyg.aqhS9q4vVEINvM9dqgNN72eIHp4PoJywfT6a4oAr7Ga0VBrYvGifWytp4q_p1TGTy0NbnBupAPbsv1d9qK2QFNopr9hRbRo8drR9N1Vn2Fg.dZWX45GIsmym3BEIKDJeXw"/>
+        <urn:SupplementalInfo key="ACCESS_SESSION_MANAGEMENT_API" value="false"/>
+        <urn:SupplementalInfo key="LOGOUT_MODE" value="NONE"/>
+        <urn:SupplementalInfo key="SECONDARY_SECRET_RETENTION_PERIOD_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="ENABLE_COOKIELESS_AUTHENTICATION_API" value="false"/>
+        <urn:SupplementalInfo key="id_token_signed_response_alg" value="HS256"/>
+        <urn:SupplementalInfo key="PING_ACCESS_LOGOUT_CAPABLE" value="false"/>
+        <urn:SupplementalInfo key="ALLOW_AUTHENTICATION_API_INIT" value="false"/>
+        <urn:SupplementalInfo key="PERSISTENT_GRANT_IDLE_TIMEOUT_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="PERSISTENT_GRANT_REUSE_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="SECRET_CHANGED_TIME" value="1759102172"/>
+        <urn:SupplementalInfo key="DEVICE_FLOW_SETTING" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="PAIRWISE_USER_TYPE" value="false"/>
+        <urn:SupplementalInfo key="REQUIRE_OFFLINE_ACCESS_SCOPE_TO_ISSUE_REFRESH_TOKENS" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="DEFAULT_ATM_ID" value="jwt"/>
+        <urn:SupplementalInfo key="RESTRICT_RESPONSE_TYPES" value="false"/>
+        <urn:SupplementalInfo key="REFRESH_TOKEN_ROLLING_GRACE_PERIOD_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="REQUIRE_PROOF_KEY_FOR_CODE_EXCHANGE" value="false"/>
+        <urn:SupplementalInfo key="ACCESS_SESSION_REVOCATION_API" value="false"/>
+        <urn:SupplementalInfo key="RESTRICT_TO_DEFAULT_ATM" value="false"/>
+        <urn:SupplementalInfo key="VALIDATE_USING_ALL_ELIGIBLE_ATMS" value="false"/>
+        <urn:SupplementalInfo key="ENABLED" value="true"/>
+        <urn:SupplementalInfo key="vnd.ping.policy_group_id" value="OAuthPlayground"/>
+    </urn:Client>
+</urn:Clients>
