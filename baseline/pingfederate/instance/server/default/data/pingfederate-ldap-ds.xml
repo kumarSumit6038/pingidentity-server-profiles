@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldap:ldap-sources xmlns:ldap="http://pingidentity.com/2004/09/ldap-ds">
+    <ldap:ldap-source id="LDAP-4216EA53E35563AC082552A19C83C874D916FB71" maskAttributeValues="false" ldapType="PingDirectory" ldapTypeDesc="PingDirectory" lastModified="2025-09-30T13:13:31.084+13:00" testOnBorrow="false" testOnReturn="false" createIfNecessary="true" retryFailedOperations="false" minIdle="10" maxActive="100" maxWait="-1" timeBetweenEvictionRunsMillis="60000" readTimeoutMillis="3000" connTimeoutMillis="3000" verifyHost="true" dnsTtlMillis="60000" ldapDnsSrvPrefix="_ldap._tcp" ldapsDnsSrvPrefix="_ldaps._tcp">
+        <ldap:host>pingfed.directory.com:7389</ldap:host>
+        <ldap:principal>cn=Directory Manager</ldap:principal>
+        <ldap:use-ssl>false</ldap:use-ssl>
+        <ldap:use-dns-srv-records>false</ldap:use-dns-srv-records>
+        <ldap:ad-referral>false</ldap:ad-referral>
+        <ldap:credentials>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiUFlwS0E2SlpEcCIsInZlcnNpb24iOiIxMi4yLjUuMCJ9..bo33vOKglyYm96dMnpoQ8w.s3ayu5760r9l3bTzO8vTVg.zGttOFn1TEOjE0OH7VQd9g</ldap:credentials>
+        <ldap:authenticationMeth>simple</ldap:authenticationMeth>
+        <ldap:description>PingFedDir</ldap:description>
+        <ldap:name>PingFedDir</ldap:name>
+        <ldap:binaryAttributes/>
+        <ldap:ldapHostTagList>
+            <ldap:tagEntry host="pingfed.directory.com:7389" tags="pingdir1"/>
+            <ldap:tagEntry host="pingfed.directory.com:7636" tags="pingdir1ssl"/>
+        </ldap:ldapHostTagList>
+        <ldap:clientTlsCertAlias xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <ldap:use-startTLS>false</ldap:use-startTLS>
+    </ldap:ldap-source>
+</ldap:ldap-sources>

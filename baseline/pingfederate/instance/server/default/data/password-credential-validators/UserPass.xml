@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2025-09-30T13:25:24.454+13:00" name="UserPass" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields/>
+    <urn:AdvancedFields/>
+    <urn:Tables>
+        <urn:Table name="Users">
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">joe</urn:Field>
+                <urn:Field name="Password">lGcSgWsefu-zs9oodnnBg5O8QZNRoj-wJWBdo-QQZgY.T4jfmmMu.2</urn:Field>
+                <urn:Field name="Confirm Password">tPu9m1EOAEc7CwaXmX8aBCB3R1cC0tZswOF2Aslj9j0.2I9-4JJi.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">sarah</urn:Field>
+                <urn:Field name="Password">VDA6p8KJbdZjMD_vsPxYUVHaB6kobZpymAgQZ14yy5o.9hcyY-bc.2</urn:Field>
+                <urn:Field name="Confirm Password">aqk5McZnk02w87ZJWONYK59K007Yp1-eI78r4kiWDCA.Kon1USWo.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">scott</urn:Field>
+                <urn:Field name="Password">jShkscwtbHMTDxxlXRQdbjsWCMjALcUAWhw7GVwocGM.u8EBlF_g.2</urn:Field>
+                <urn:Field name="Confirm Password">IdGpW1C5LXBiq2FRwdnkqBLFhqT_dfF24vyGv4ll7iQ.P8G8u6Lu.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">adam</urn:Field>
+                <urn:Field name="Password">qw2e1w1s6-lDomHOErvkHW-GzSU4PSALXdHeIv-t4XM.TUDJdmBn.2</urn:Field>
+                <urn:Field name="Confirm Password">uZGAMlD7JOTvWoD-5u1Qm_vrfOkzIDqLWXp-9OVgFCk.KGTj_Rf2.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+        </urn:Table>
+    </urn:Tables>
+    <urn:ExtendedAttributesAdditionalProperties/>
+</urn:PluginConfiguration>

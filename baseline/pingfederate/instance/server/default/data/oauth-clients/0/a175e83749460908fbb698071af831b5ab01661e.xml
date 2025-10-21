@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:Clients xmlns:urn="urn:pingidentity.com:pf:oauth:client">
+    <urn:Client client_id="oidc_client" name="oidc_client" logo="" secret="xQARkQy9TD0sWQgszT0jIJldceDgaxn_SUTHZ9FRJrQ.LD2UCwhL.2" persistentGrantExpirationTime="0" enabled="true" lastModified="2025-09-29T16:38:29.037+13:00" creationTime="2025-09-29T14:49:26.041+13:00" bypassApprovalPage="true" restrictScopes="false" jwksUri="" jwks="{     &quot;keys&quot;: [         {             &quot;p&quot;: &quot;5ErfcR74j1wrd3XmzlwxXWdswPaAUehLk1uKvmwI66OuAUFksz-p7Ox7569_ixPZKt107rpm4cDMU7PWRb8lEvD_yKX6GYgDOndWG_2SYDz0SIM18Gy_y6sLyduWmvtvyjhL1KVDsp3iXIwc9Me5W10Uc1yDp_YuuZ6O4n8VHq0&quot;,             &quot;kty&quot;: &quot;RSA&quot;,             &quot;q&quot;: &quot;yhofM7HsK4s1dYxBmHJM8zLSJt5DdLt63kOSy8FjDm8kYZ7bAR7kUPZ_He_4XXWLlBHf1UJ_NZ3zcT_HjzBSkjJDF9ZUncfL5iXlh6ABMEt13NrxuqBKZt9dCfAfS4yx3fUG5jPvAzJqX3Lq0TPNi6L5D79uimdpKJMwJvtH8WU&quot;,             &quot;d&quot;: &quot;q2ftD9dXHObkUZsYAcozQrbHy1XyuzY1NKEx00tbLWUTXwx3aQ7Txn8mRjps-bbVAogCezKu2vOMxR6WFbTEh5cmJl_PIShwfSFlbcA24I9W9jh3worG_k7ch8o_MTMZ5pxudhjjkZuFB0BM01IJYBI1U5TjXdlGcKuAqxuWt7aUY3kCHW980k_ORvOgtlmUaciGJ9xZyWci3fsqFxz4k6Y_nSk3CVeExC6P6c8s8UbT4AHAeh4faoSliq7q7gosDvcBym48lFRDIwyEoakoKy-6BnTvzyn3dy-kJo3CiTTOnMFbfnRJhxKx0ncfwHLcBFX-PPlN3VVhfOuDhenVsQ&quot;,             &quot;e&quot;: &quot;AQAB&quot;,             &quot;use&quot;: &quot;sig&quot;,             &quot;kid&quot;: &quot;6jN4jimor9rF9U34wDU8GqSO-EVubspT20nrfKmFKsU&quot;,             &quot;qi&quot;: &quot;phZZGHiIRIf9oBVAcq6spSgIRrjhedrtuB8IvRSuszm3pupkNPotTafAQ3p6s6362zceY6whJZPZIXMIKzCQgky0nkSWsH3-FbsxEgdEGEIGrBYwnZkKZeSFJ5iEU1EfGCO2o61k9-f3cQwyq90AykXeFaS4JYTfZXrVG4Ww8bo&quot;,             &quot;dp&quot;: &quot;W7tyOWQ2gHSKyr_HdJg7BcsvOgJS4Zaz94xLHeUPWJA2tS5vpk8ompkT2K7-UwYwtzaxa9Pez0vHTsLukKwT256XSSrYajXrBi05npmvnZggmJqQrAEmuFIMtJnV1ITAEMO6RMH7h-RFNubeI8W1R28Jbql4BZ-4esGprH1gISk&quot;,             &quot;alg&quot;: &quot;RS256&quot;,             &quot;dq&quot;: &quot;rw6nXkDMX_9KBBLEMsc27iVkMPSvG2rVh7aibcmKAtO0gLZ33uWiQJrzCrx0tod9qnk9F91skMXLO5pSQi5KJ4ZP5VLqomyQqj7DLZIj1XBXnEEtx0jWiXsKfPQ4N1mcK7T1D-uGKY--4gSJb0Je1YgKEmDv4ASo6tNrjyhzbZ0&quot;,             &quot;n&quot;: &quot;tDpfvR6Q3P55F3Q6p6y52RiuttH-v3mc522UL-D50lprfKZeoPjJeUDo6zuKEtXCkc2K6nRAYBYcupCDlKYGEmx6splUUDAcWKy-lre8WUi1XZbaydko-WH0-pXzeHys9F-vxXo3uqIbaBp3pGucy1KuKZUiMh6AZFsjCpXdOaxkCH9LCadjuhUc3GEJ_LBPsCdJ6dyR47VG1TQnjS2cfRI7_HkbrlUxUkWIILgrTkkMGMzkVgDwOgbLyZSyGQAK76mLZMTedtoSLKb0sGQMGK5QjVKDCNdghqKnjaqPkKKGXlrw9vEZ41NMG4WlCFLSBGLOLl17MZKrtoqcJjD3QQ&quot;         }     ] }" clientAuthnType="SECRET" enforceOneTimeJWT="false" isRequireSignedRequest="false">
+        <urn:Description/>
+        <urn:Grant type="refresh_token"/>
+        <urn:Grant type="authorization_code"/>
+        <urn:Grant type="urn:pingidentity.com:oauth2:grant_type:validate_bearer"/>
+        <urn:RedirectUri>https://oidcdebugger.com/debug</urn:RedirectUri>
+        <urn:SupplementalInfo key="CREATION_TIME" value="1759110566041"/>
+        <urn:SupplementalInfo key="ALLOW_AUTHORIZATION_DETAIL_TYPES" value="false"/>
+        <urn:SupplementalInfo key="LOCKOUT_MAX_MALICIOUS_ACTIONS_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="SECONDARY_SECRET_RETENTION_PERIOD_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="ACCESS_SESSION_MANAGEMENT_API" value="false"/>
+        <urn:SupplementalInfo key="LOGOUT_MODE" value="NONE"/>
+        <urn:SupplementalInfo key="ENABLE_COOKIELESS_AUTHENTICATION_API" value="false"/>
+        <urn:SupplementalInfo key="id_token_signed_response_alg" value="RS256"/>
+        <urn:SupplementalInfo key="ALLOW_EXCLUSIVE_SCOPES" value="false"/>
+        <urn:SupplementalInfo key="PING_ACCESS_LOGOUT_CAPABLE" value="false"/>
+        <urn:SupplementalInfo key="ALLOW_AUTHENTICATION_API_INIT" value="false"/>
+        <urn:SupplementalInfo key="SECONDARY_SECRETS" value="eyJzZWNyZXRzIjpbXX0="/>
+        <urn:SupplementalInfo key="PERSISTENT_GRANT_IDLE_TIMEOUT_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="PERSISTENT_GRANT_REUSE_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="SECRET_CHANGED_TIME" value="1759110566"/>
+        <urn:SupplementalInfo key="DEVICE_FLOW_SETTING" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="REQUIRE_OFFLINE_ACCESS_SCOPE_TO_ISSUE_REFRESH_TOKENS" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="DEFAULT_ATM_ID" value="JWTATM"/>
+        <urn:SupplementalInfo key="RESTRICT_RESPONSE_TYPES" value="false"/>
+        <urn:SupplementalInfo key="REQUEST_OBJECT_SIGNING_ALGORITHM" value="RS256"/>
+        <urn:SupplementalInfo key="REFRESH_TOKEN_ROLLING_GRACE_PERIOD_TYPE" value="SERVER_DEFAULT"/>
+        <urn:SupplementalInfo key="REQUIRE_PROOF_KEY_FOR_CODE_EXCHANGE" value="false"/>
+        <urn:SupplementalInfo key="RESTRICT_TO_DEFAULT_ATM" value="false"/>
+        <urn:SupplementalInfo key="ACCESS_SESSION_REVOCATION_API" value="false"/>
+        <urn:SupplementalInfo key="VALIDATE_USING_ALL_ELIGIBLE_ATMS" value="false"/>
+        <urn:SupplementalInfo key="ENABLED" value="true"/>
+        <urn:SupplementalInfo key="vnd.ping.policy_group_id" value="TestOIDCPolicy"/>
+        <urn:SupplementalInfo key="POST_LOGOUT_REDIRECT_URIS" value="[]"/>
+    </urn:Client>
+</urn:Clients>
