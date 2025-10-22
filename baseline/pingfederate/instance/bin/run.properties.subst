@@ -30,6 +30,7 @@ pf.cluster.failure.detection.bind.port=7700
 pf.cluster.transport.protocol=tcp
 pf.cluster.mcast.group.address=239.16.96.69
 pf.cluster.mcast.group.port=7601
+pf.cluster.discovery.protocol=TCPPING
 pf.cluster.tcp.discovery.initial.hosts=${DISCOVERY_INITIAL_HOST}
 pf.cluster.adaptive=false
 pf.cluster.diagnostics.enabled=false
