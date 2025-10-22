@@ -17,7 +17,7 @@
 #     AWS_PING
 #     SWIFT_PING
 #
-pf.cluster.discovery.protocol=DNS_PING
+pf.cluster.discovery.protocol=TCPPING
 
 # Optional property to declare fully-qualified class name of discovery protocol not included in the supported list for
 # "pf.cluster.discovery.protocol". Both "pf.cluster.discovery.protocol" and "pf.cluster.discovery.class" must be set
